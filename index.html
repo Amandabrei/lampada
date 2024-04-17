@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Amanda Breidenbach">
+    <link rel="stylesheet" href="stilo.css">
+    <script>function myFuction(){
+        document.getElementById("demo").innerHTML = "troca o paragrafo";
+    }</script>
+    </head>
+    <body>
+    <title>Estudando Html</title>
+    <p id = "demo" class="paragrafo">O paragrafo!!!</p>
+    <button class="botao" type="button" onclick="myFuction()">Clique aqui</button>
+   
+    <section class="hero">
+        <div class="texto">Passe o mouse na Lâmpada e faça um pedido!!!</div>
+        <div>
+            <img class="responsiva" id="troca" src="img/LApagada.jpg">
+        </div>
+    </section>
+    <script>
+        const troca = document.getElementById ('troca');
+        troca.addEventListener('mouseover', function() {
+            troca.src = "img/LAcessa.jpg";
+        })
+            troca.addEventListener('mouseout', function() {
+            troca.src = "img/LApagada.jpg";
+        })
+    </script>
+</body>
+</html>

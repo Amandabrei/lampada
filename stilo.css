@@ -1,0 +1,35 @@
+.paragrafo{
+    color: blue;
+    padding: 80px; 
+    margin: 5px;
+    background: yellow;
+    font-size: 40px;
+    
+}
+
+.texto{
+    font-size: 25px;
+    padding: 5px;
+    margin: 15px;
+    background: gray;
+}
+
+.botao{
+    color: white;
+    background: blue;
+    font-size: 20px;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.5s all;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: yellow;
+    color: black;
+    font-size: 18px;
+}
+    
+
